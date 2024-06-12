@@ -1,0 +1,54 @@
+{
+  "tours": [
+    {
+      "id": "fed593a1-a5e8-4722-a01f-a41dd14c9f96",
+      "name": "Tour al Quilotoa",
+      "price": 15,
+      "photo": "quilotoa.png"
+    },
+    {
+      "id": "6a9ad7d5-0dac-4c2f-a3f3-66f66167d76a",
+      "nombre": "Quito-Tour de las Iglesias",
+      "descripción": "Recorrido Temprano",
+      "foto": "Iglesia.png"
+    },
+    {
+      "id": "561da859-b120-4219-abbb-d5246ee12f35",
+      "nombre": "Quito-Tour Museos",
+      "descripción": "Recorrido Nocturno",
+      "foto": "Museo.png"
+    },
+    {
+      "id": "95b74eb2-6993-443b-aedc-381d8ae8231e",
+      "username": "Juan",
+      "password": "abc123"
+    },
+    {
+      "id": "91d96291-da1e-426a-8d33-26c68e189564",
+      "username": "Juan",
+      "password": "abc123"
+    },
+    {
+      "id": "c9b18256-7e50-45ae-8b08-7bae296dc4a9",
+      "ruta": "Ruta a Baños",
+      "descripcion": "Ruta de Prueba"
+    },
+    {
+      "id": "2a2bac4b-e2f7-4b11-b62d-f41dcbafd334"
+    },
+    {
+      "id": "e92d3711-e014-4fed-88c2-2fe903337990",
+      "nombre": "Tour al Panecillo",
+      "descripcion": "Tour nocturno",
+      "imagen": "https://res.cloudinary.com/dsw33guhi/image/upload/v1717706278/tours/zr76bpsvajq8q3jm8qtd.jpg",
+      "public_id": "tours/zr76bpsvajq8q3jm8qtd"
+    }
+  ],
+  "users": [
+    {
+      "id": "a582933a-77e6-4f72-b0d0-989c197a5cec",
+      "password": "$2b$10$If0Kqxor8Od/sDNNWNXOEuSAlCMVks6hNKuVqdwI9EuOwvQels3F6",
+      "username": "lenintoto"
+    }
+  ]
+}
