@@ -2,14 +2,14 @@ const tourModel = {
 
     async getAllToursModel(){
         // Punto 1
-        const peticion= await fetch('https://holaqace.free.beeceptor.com/api/tours')
+        const peticion= await fetch('http://localhost:4000/tours')
         
         // Punto 2
         const tours= await peticion.json()
         return tours
     },
     async createTourModel(newTour){
-        const url = 'https://holaqace.free.beeceptor.com/api/tours'
+        const url = 'http://localhost:4000/tours'
         const peticion = await fetch(url,{
             method:'POST',
             body:JSON.stringify(newTour),
@@ -20,7 +20,7 @@ const tourModel = {
         return data
     },
     async getTourByIdModel(tourId){
-        const response= await fetch(`https://holaqace.free.beeceptor.com/api/tours/${tourId}`)
+        const response= await fetch(`http://localhost:4000/tours/${tourId}`)
         if(!response.ok){
             return{error:"Tour No Encontrado"}
         }
@@ -29,7 +29,7 @@ const tourModel = {
     },
     async updateTourModel(idTour,dataTour){
         //Punto 1
-        const url = `https://holaqace.free.beeceptor.com/api/tours/${idTour}`
+        const url = `http://localhost:4000/tours/${idTour}`
         const peticion = await fetch(url,{
             method:'PUT',
             body:JSON.stringify(dataTour),
@@ -40,7 +40,7 @@ const tourModel = {
         return data
     },async deleteTourModel(idTour){
         //Punto 1
-        const url = `https://holaqace.free.beeceptor.com/api/tours/${idTour}`
+        const url = `http://localhost:4000/tours/${idTour}`
         const peticion = await fetch(url,{
             method:'DELETE'
         })
